@@ -45,7 +45,7 @@ export const AmountInput: React.FC<AmountInputProps> = ({
                     keyboardType="decimal-pad"
                     placeholder="0.00"
                     placeholderTextColor={COLORS.placeholder}
-                    autoFocus
+                // autoFocus
                 />
             </View>
         </BottomSheet>
@@ -71,5 +71,6 @@ const styles = StyleSheet.create({
         lineHeight: 22,
         color: '#000000',
         fontFamily: FONTS.family.regular,
+        paddingVertical: 0,
     },
 });
