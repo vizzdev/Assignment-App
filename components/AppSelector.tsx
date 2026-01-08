@@ -21,12 +21,12 @@ interface App {
 
 const APPS: App[] = [
     { id: '1', name: 'Netflix', icon: require('../assets/images/ic_netflix.svg') },
-    { id: '2', name: 'Spotify', icon: require('../assets/images/ic_spotify.svg') },
-    { id: '3', name: 'New York Times', icon: require('../assets/images/ic_newyork_times.svg') },
-    { id: '4', name: 'Wall Street Journal', icon: require('../assets/images/ic_wallstreet_journal.svg') },
-    { id: '5', name: 'Hulu', icon: require('../assets/images/ic_hulu.svg') },
-    { id: '6', name: 'Apple', icon: require('../assets/images/ic_apple.svg') },
-    { id: '7', name: 'Amazon', icon: require('../assets/images/ic_amazon.svg') },
+    { id: '2', name: 'Spotify', icon: require('../assets/images/ic_spotify.png') },
+    { id: '3', name: 'New York Times', icon: require('../assets/images/ic_newyork_times.png') },
+    { id: '4', name: 'Wall Street Journal', icon: require('../assets/images/ic_wallstreet_journal.png') },
+    { id: '5', name: 'Hulu', icon: require('../assets/images/ic_hulu.png') },
+    { id: '6', name: 'Apple', icon: require('../assets/images/ic_apple.png') },
+    { id: '7', name: 'Amazon', icon: require('../assets/images/ic_amazon.png') },
 ];
 
 interface AppSelectorProps {
@@ -120,8 +120,10 @@ const styles = StyleSheet.create({
         flex: 1,
         fontSize: 16,
         lineHeight: 22,
-        color: COLORS.neutral[100],
+        color: '#000000',
         fontFamily: FONTS.family.regular,
+        paddingVertical: 0,
+        height: '100%',
     },
     list: {
         flex: 1,

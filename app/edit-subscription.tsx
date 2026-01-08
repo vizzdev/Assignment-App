@@ -110,7 +110,7 @@ export default function EditSubscription() {
                             <Text style={styles.dateText}>{formatDate(startDate)}</Text>
                         </TouchableOpacity>
                     </View>
-                    <View style={styles.divider} />
+
                     <View style={styles.divider} />
                     <TouchableOpacity style={styles.listItem} onPress={() => setShowFrequencySelector(true)}>
                         <Text style={styles.listLabel}>Frequency</Text>
