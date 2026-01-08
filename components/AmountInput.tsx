@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
         flex: 1,
         fontSize: 16,
         lineHeight: 22,
-        color: COLORS.neutral[100],
+        color: '#000000',
         fontFamily: FONTS.family.regular,
     },
 });

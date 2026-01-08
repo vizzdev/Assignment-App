@@ -125,6 +125,8 @@ export default function EditSubscription() {
                         <Switch
                             value={isActive}
                             onValueChange={setIsActive}
+                            trackColor={{ false: COLORS.border, true: COLORS.success }}
+                            thumbColor={COLORS.white}
                         />
                     </View>
                     <View style={styles.divider} />
